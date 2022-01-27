@@ -6,9 +6,9 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://10.8.192.127:3306/asset_vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-                username: root
-                password: x4wGjmWRSwugLcev
+                url: jdbc:mysql://1.1.1.1:3306/asset_vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                username: sinosig
+                password: sinosig password
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
